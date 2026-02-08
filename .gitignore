@@ -1,8 +1,20 @@
+# 临时文件夹
 Binaries/
+Build/
 DerivedDataCache/
 Intermediate/
 Saved/
-Build/
+
+# 脚本相关（如果是C++项目）
+.vscode/
 .vs/
 *.sln
-*.suo
+*.xcworkspace
+
+# 插件构建目录
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# 其他
+.DS_Store
+*.pdb
